@@ -1,0 +1,14 @@
+If you never intend to change a variable, use final or const, either instead of var or in addition to a type. A final variable can be set only once; a const variable is a compile-time constant. (Const variables are implicitly final.)
+
+
+
+
+The const keyword isn’t just for declaring constant variables. You can also use it to create constant values, as well as to declare constructors that create constant values. Any variable can have a constant value.
+
+
+
+var foo = const [];
+final bar = const [];
+const baz = []; // Equivalent to `const []`
+
+
