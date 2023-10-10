@@ -1,0 +1,11 @@
+Conditional expressions
+
+Dart has two operators that let you concisely evaluate expressions that might otherwise require if-else statements:
+
+condition ? expr1 : expr2
+    If condition is true, evaluates expr1 (and returns its value); otherwise, 
+    evaluates and returns the value of expr2.
+
+expr1 ?? expr2
+    If expr1 is non-null, returns its value; otherwise, 
+    evaluates and returns the value of expr2. 

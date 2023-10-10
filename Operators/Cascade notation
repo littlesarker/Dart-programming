@@ -1,0 +1,26 @@
+Cascade notation
+
+Cascades (.., ?..) allow you to make a sequence of operations on the same object. 
+In addition to accessing instance members, you can also call instance methods on that same object.
+This often saves you the step of creating a temporary variable and allows you to write more fluid code.
+
+
+
+var paint = Paint()
+  ..color = Colors.black
+  ..strokeCap = StrokeCap.round
+  ..strokeWidth = 5.0;
+
+
+
+above example 
+example is equivalent to this code:
+
+var paint = Paint();
+ paint.color = Colors.black;
+ paint.strokeCap = StrokeCap.round;
+ paint.strokeWidth = 5.0;
+
+
+
+
