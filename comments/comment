@@ -1,0 +1,27 @@
+Single-line comments
+
+
+void main() {
+  // TODO: refactor into an AbstractLlamaGreetingFactory?
+  print('Welcome to Ansaar IT!');
+}
+
+
+
+
+Multi-line comments
+
+A multi-line comment begins with /* and ends with */. 
+
+void main() {
+  /*
+   * This is a lot of hard work.
+
+  Rahim ob = Rahim();
+  ob.feed();
+  ob.exercise();
+  ob.clean();
+   */
+}
+
+
